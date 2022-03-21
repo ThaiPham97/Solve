@@ -7,3 +7,8 @@ pip install wheel
 
 No module named 'websocket'
 pip install websocket_client
+
+
+ERROR: Could not build wheels for bcrypt which use PEP 517 and cannot be installed directly
+$ python -m pip install --no-use-pep517 bcrypt
+$ python -m pip install --upgrade pip
